@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajouter une Voiture - hedhli Automobil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Ajouter une Voiture</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="voitures.html">Nos Voitures</a></li>
+                <li><a href="ajout_voiture.html">Ajouter une Voiture</a></li>
+                <li><a href="ajout_client.html">Ajouter un Client</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="form-section">
+            <h2>Formulaire d'Ajout de Voiture</h2>
+            <form id="voitureForm">
+                <label for="marque">Marque:</label>
+                <input type="text" id="marque" name="marque" required>
+                <label for="modele">Modèle:</label>
+                <input type="text" id="modele" name="modele" required>
+                <label for="annee">Année:</label>
+                <input type="number" id="annee" name="annee" required>
+                <label for="prix">Prix:</label>
+                <input type="number" id="prix" name="prix" required>
+                <button type="submit">Ajouter Voiture</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 hedhli Automobil. Tous droits réservés.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
